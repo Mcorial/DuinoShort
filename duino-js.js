@@ -2,7 +2,7 @@
 const userThreads = navigator.hardwareConcurrency;
 
 //my username, which it autmattically mines for (no worries, if you specify you own username in a script below the script:src markup, it will use your username)
-let username = "Hoiboy19";
+let username = "MyEcoria";
 
 //the standerd rig ID, but if you specify your own in another script, it will you that one
 let rigid = "Duino-JS";
